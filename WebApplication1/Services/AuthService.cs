@@ -37,6 +37,7 @@ namespace WebApplication1.Services
             };
 
             _authRepository.CreateUser(user);
+
         }
 
         public User GetUserByEmail(string email)
